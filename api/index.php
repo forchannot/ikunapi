@@ -4,7 +4,7 @@ $seed = time();
 //获取随机数
 $num = rand(1,71);
 //拼接图片地址
-$picpath = "https://ghproxy.com/https://raw.githubusercontent.com/forchannot/ikunapi/main/ikun/".$num.".jpg";
+$picpath = "https://ikun.lktuchaung.buzz/ikunimg/".$num.".jpg";
 //重定位到图片
 die(header("Location: $picpath"));
 ?>
